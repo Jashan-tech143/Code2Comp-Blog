@@ -46,7 +46,7 @@ $posts = $statement->fetchAll(PDO::FETCH_ASSOC);
                             <a href="full_post.php?id=<?= $post['id'] ?>"> <?= htmlspecialchars($post['title']) ?> </a>
                         </h3>
 
-                        <p id="time"><?= htmlspecialchars($post['time_stamp']) ?></p>
+                        <p id="time"><?= htmlspecialchars(date("F j, Y", strtotime($post['time_stamp']))) ?></p>
 
                     </header>
 
