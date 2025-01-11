@@ -28,7 +28,7 @@ Welcome to **Code2Comp**, a simple and interactive PHP-based blogging platform. 
 
 ### Prerequisites
 - **XAMPP** installed on your system.
-- - Basic knowledge of how to use phpMyAdmin.
+- Basic knowledge of how to use phpMyAdmin.
 - PHP version 7.4 or higher.
 
 # If you have any questions, feel free to contact me at jashanpreetkaur110424@gmail.com
