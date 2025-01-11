@@ -35,17 +35,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['title'], $_POST['cont
 </head>
 
 <body>
- 
+
     <div class="content">
         <h1>Create new post!</h1>
         <form method="post" class="post">
             <label for="title">Title</label>
             <input type="text" id="title" name="title" required>
-            
+
 
             <label for="content">Content:</label>
             <textarea name="content" id="content" required></textarea>
-            
+
             <button type="submit">Submit</button>
 
         </form>

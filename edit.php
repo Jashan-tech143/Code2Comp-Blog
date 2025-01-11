@@ -62,18 +62,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="content">
 
-
         <form method="post" class="post">
 
             <input type="hidden" name="id" id="id" value=" <?= htmlspecialchars($post['id']) ?>">
 
             <label for="title">Title</label>
             <input type="text" name="title" id="title" value="<?= htmlspecialchars($post['title']) ?>" required>
-            
+
             <label for="content">Content: </label>
 
             <textarea name="content" id="content" required> <?= htmlspecialchars($post['content']) ?></textarea>
-           
+
             <button type="submit">Update</button>
         </form>
     </div>

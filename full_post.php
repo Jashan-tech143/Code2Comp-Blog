@@ -40,6 +40,7 @@ if (isset($_GET['id'])) {
     <main>
         <article class="content">
             <h1><?= htmlspecialchars(string: $post['title']) ?></h1>
+            
             <p id="time"><?= date("F j, Y", strtotime($post['time_stamp'])) ?></p>
 
             <div class="post"><?= htmlspecialchars($post['content']) ?></div>
